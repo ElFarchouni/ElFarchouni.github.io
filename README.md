@@ -1,17 +1,27 @@
-# Geospatial Portfolio Template
+# Abderrahman El Farchouni — Personal Portfolio
 
-A ready-to-use portfolio website template for geospatial professionals — GIS analysts, remote
-sensing specialists, spatial data scientists, and GeoAI practitioners. Built with
-[MkDocs](https://www.mkdocs.org/) and the [Material theme](https://squidfunk.github.io/mkdocs-material/).
+**Live site: [elfarchouni.github.io](https://elfarchouni.github.io)**
 
-Build a fully responsive personalized portfolio website - no Git or coding expertise required.
+Personal academic portfolio of Abderrahman El Farchouni — PhD Researcher in Integrated
+Hydrology & Groundwater Recharge, in a cotutelle program between Mohammed VI Polytechnic
+University (UM6P – IWRI, Morocco) and the University of Florence (UNIFI – DAGRI, Italy).
 
-**[LIVE PORTFOLIO](https://spatialthoughts.github.io/)**
+The site presents my research, publications, experience, and contact information.
 
-This template is part of our [Building Your Geospatial Portfolio Website](https://courses.spatialthoughts.com/geospatial-portfolio-workshop.html) workshop. Visit the workshop page for step-by-step instructions.
+## Tech
 
-![](portfolio.png)
+- Built with [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- Deployed automatically to GitHub Pages via GitHub Actions on every push to `main`
 
-## License
+## Local development
 
-[MIT License](LICENSE)
+```bash
+pip install -r requirements.txt
+mkdocs serve --livereload
+```
+
+Then open http://127.0.0.1:8000.
+
+---
+
+© 2026 Abderrahman El Farchouni. Site framework based on an MIT-licensed MkDocs template (see [LICENSE](LICENSE)).
