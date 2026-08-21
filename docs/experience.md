@@ -39,7 +39,7 @@ hydrology, hydrogeology, and water resources.
 ### Fieldwork & Data Collection
 
 - **Geophysical surveys:** Electrical Resistivity Tomography (ERT), Magnetic Resonance Sounding (MRS), seismic surveys, and EM38.
-- **Hydrogeological monitoring:** Piezometric network measurement and data analysis.
+- **Hydrogeological monitoring:** Piezometric data monitoring systems, streamflow measurements, and data analysis.
 - **Water sampling:** Collection and analysis of isotopic (δ²H, δ¹⁸O) and hydrochemical samples.
 - **Aquifer characterization:** Execution and interpretation of pumping tests.
 - **Socio-economic surveys:** Design and implementation of farmer questionnaires on irrigation practices, groundwater recharge, and water management strategies.

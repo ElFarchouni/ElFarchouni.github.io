@@ -108,10 +108,11 @@ GeoAI, and water-resource decision support.
 
     ---
 
-    - ERT, Magnetic Resonance Sounding (MRS), seismic surveys, EM38
-    - Pumping tests and piezometric monitoring
-    - Isotopes (δ²H, δ¹⁸O) and hydrochemistry sampling
-    - Prodiviner, Res2DInv
+    - Geophysical surveys: ERT, Magnetic Resonance Sounding (MRS), seismic surveys, EM38
+    - Piezometric data monitoring systems and streamflow measurements
+    - Pumping tests and aquifer characterization
+    - Isotope (δ²H, δ¹⁸O) and hydrochemical sampling
+    - Geophysics software: Prodiviner, Res2DInv
 
 -   :material-code-braces:{ .lg .middle } **Programming & Data Science**
 
