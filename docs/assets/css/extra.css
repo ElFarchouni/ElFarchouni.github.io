@@ -1,0 +1,505 @@
+/* ============================================================
+   UNIFIED DESIGN SYSTEM — "water & research"
+   Palette: deep water blue, teal, cyan; gold for awards only.
+   Every custom color has a dark-mode (slate) variant.
+   ============================================================ */
+
+:root {
+  --aq-deep: #0b4f6c;
+  --aq-teal: #0b7a75;
+  --aq-teal-bright: #2ec4b6;
+  --aq-cyan: #4cc9f0;
+  --aq-surface: #eef6fa;
+  --aq-surface-2: #ffffff;
+  --aq-border: rgba(11, 79, 108, 0.18);
+  --aq-shadow: rgba(11, 79, 108, 0.16);
+  --aq-chip-bg: #e0f2f1;
+  --aq-chip-fg: #0b6560;
+  --aq-gold: #f0b429;
+  --aq-gold-bg: #fff8e1;
+}
+
+[data-md-color-scheme="slate"] {
+  --aq-surface: #223046;
+  --aq-surface-2: #1e2a3a;
+  --aq-border: rgba(76, 201, 240, 0.22);
+  --aq-shadow: rgba(0, 0, 0, 0.45);
+  --aq-chip-bg: #1b3a3a;
+  --aq-chip-fg: #7fe0d6;
+  --aq-gold-bg: #3a3220;
+}
+
+/* ============ Section headings: teal underline accent ============ */
+.md-typeset h2::after {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 3px;
+  margin-top: 6px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--aq-teal-bright), var(--aq-cyan));
+}
+
+/* ============ Buttons ============ */
+.md-typeset .md-button {
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px var(--aq-shadow);
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--aq-teal);
+  border-color: var(--aq-teal);
+}
+
+/* ============ HOME: hero banner with wave ============ */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 2.5rem 1rem 4rem 1rem;
+  background: linear-gradient(135deg, var(--aq-deep) 0%, #0e6b7d 55%, var(--aq-teal) 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+[data-md-color-scheme="slate"] .hero {
+  background: linear-gradient(135deg, #083648 0%, #0b5261 55%, #0b5f5b 100%);
+}
+
+.md-typeset .hero h1 {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.hero p {
+  color: #e6f7fb;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.hero p em {
+  color: #bfeff9;
+}
+
+.hero-wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  display: block;
+}
+
+.hero-wave path {
+  fill: var(--md-default-bg-color);
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 0.75rem auto;
+  border: 3px solid var(--aq-teal-bright);
+  box-shadow: 0 0 0 6px rgba(76, 201, 240, 0.25), 0 0 28px rgba(76, 201, 240, 0.5);
+}
+
+.hero + hr {
+  margin-top: 0.5rem;
+}
+
+/* ============ HOME: credibility pill strip ============ */
+.cred-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.cred-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--aq-surface);
+  border: 1px solid var(--aq-teal-bright);
+  border-radius: 999px;
+  padding: 0.25rem 0.9rem;
+  font-size: 0.78rem;
+}
+
+.cred-pill p {
+  margin: 0;
+}
+
+/* ============ HOME: about section ============ */
+.about-section {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  border-left: 3px solid var(--aq-teal-bright);
+  padding-left: 1.25rem;
+}
+
+.about-image {
+  flex: 0 0 auto;
+}
+
+.about-image img {
+  width: 380px;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 8px 24px var(--aq-shadow);
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    flex-direction: column;
+  }
+  .about-image img {
+    width: 100%;
+  }
+}
+
+/* ============ HOME: skills grid cards ============ */
+.md-typeset .grid.cards > ul > li {
+  background-color: var(--aq-surface-2);
+  border: 1px solid var(--aq-border);
+  border-top: 3px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px var(--aq-shadow);
+  border-top-color: var(--aq-teal-bright);
+}
+
+.md-typeset .grid.cards > ul > li .twemoji.lg {
+  color: var(--aq-teal);
+}
+
+/* ============ PROJECTS: gallery cards ============ */
+.md-typeset .grid {
+  gap: 1.5rem;
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--aq-border);
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: var(--aq-surface-2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px var(--aq-shadow);
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px 8px 4px 4px;
+  margin-bottom: 0.75rem;
+}
+
+.project-card > p:nth-of-type(2) strong a {
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color);
+}
+
+.project-card > p:nth-of-type(2) strong a:hover {
+  color: var(--aq-teal);
+}
+
+/* status pill overlaid on the cover image */
+.project-status {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 1;
+  font-size: 0.68rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+  background-color: rgba(11, 79, 108, 0.85);
+  color: #ffffff;
+}
+
+.project-status--ongoing {
+  background-color: rgba(11, 122, 117, 0.9);
+}
+
+.project-status--published {
+  background-color: rgba(11, 79, 108, 0.9);
+}
+
+/* tool tags: restyle inline code as chips */
+.project-card code {
+  background-color: var(--aq-chip-bg);
+  color: var(--aq-chip-fg);
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.72rem;
+}
+
+.project-card .md-button {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  border-color: var(--aq-teal);
+  color: var(--aq-teal);
+}
+
+.project-card .md-button:hover {
+  background-color: var(--aq-teal);
+  border-color: var(--aq-teal);
+  color: #ffffff;
+}
+
+/* ============ PUBLICATIONS: entry cards + badges ============ */
+.pub-card {
+  border-left: 4px solid var(--aq-teal-bright);
+  background-color: var(--aq-surface);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem 0.6rem 1.1rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.pub-card:hover {
+  box-shadow: 0 4px 14px var(--aq-shadow);
+}
+
+.pub-card p {
+  margin: 0.35rem 0;
+}
+
+.pub-badge {
+  display: inline-block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 999px;
+  padding: 0.12rem 0.65rem;
+  margin: 0 0.35rem 0.25rem 0;
+}
+
+.pub-badge--first {
+  background-color: var(--aq-teal);
+  color: #ffffff;
+}
+
+.pub-badge--journal {
+  border: 1px solid var(--aq-teal);
+  color: var(--aq-teal);
+}
+
+.pub-badge--conf {
+  border: 1px solid var(--aq-deep);
+  color: var(--aq-deep);
+}
+
+[data-md-color-scheme="slate"] .pub-badge--conf {
+  border-color: var(--aq-cyan);
+  color: var(--aq-cyan);
+}
+
+.pub-badge--poster {
+  border: 1px solid var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color--light);
+}
+
+.pub-badge--award {
+  background-color: var(--aq-gold);
+  color: #3d2e00;
+}
+
+/* gold treatment for award-winning entries (shared with Experience) */
+.award-card {
+  border-left: 4px solid var(--aq-gold) !important;
+  background-color: var(--aq-gold-bg) !important;
+}
+
+/* ============ EXPERIENCE: timeline ============ */
+.timeline {
+  padding-left: 1.75rem;
+  border-left: 3px solid var(--aq-teal-bright);
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 1.75rem;
+  background-color: var(--aq-surface-2);
+  border: 1px solid var(--aq-border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  left: -2.55rem;
+  top: 1.1rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background-color: var(--aq-teal-bright);
+  border: 2px solid var(--md-default-bg-color);
+  box-shadow: 0 0 8px rgba(76, 201, 240, 0.6);
+}
+
+.timeline-entry h3 {
+  margin-top: 0;
+}
+
+/* ============ EXPERIENCE: education cards ============ */
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 700px) {
+  .edu-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.edu-card {
+  border: 1px solid var(--aq-border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  background-color: var(--aq-surface-2);
+}
+
+.edu-card--primary {
+  border: 2px solid var(--aq-teal-bright);
+  grid-column: 1 / -1;
+}
+
+.edu-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.edu-card p {
+  margin: 0.3rem 0;
+}
+
+.date-pill {
+  display: inline-block;
+  float: right;
+  font-family: var(--md-code-font-family, monospace);
+  font-size: 0.68rem;
+  background-color: var(--aq-surface);
+  border: 1px solid var(--aq-border);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  margin-left: 0.5rem;
+}
+
+/* name / language chips */
+.chip {
+  display: inline-block;
+  background-color: var(--aq-surface);
+  border: 1px solid var(--aq-border);
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem;
+  font-size: 0.78rem;
+  margin: 0.12rem 0.2rem 0.12rem 0;
+}
+
+/* ============ EXPERIENCE: training checklist ============ */
+.training-grid ul {
+  columns: 2;
+  column-gap: 2.5rem;
+  list-style: none;
+  margin-left: 0 !important;
+}
+
+.training-grid ul li {
+  margin-left: 0 !important;
+  break-inside: avoid;
+}
+
+.training-grid .twemoji {
+  color: var(--aq-teal-bright);
+}
+
+@media (max-width: 700px) {
+  .training-grid ul {
+    columns: 1;
+  }
+}
+
+/* ============ CONTACT: channel cards ============ */
+.contact-lede {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 1.5rem auto;
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 700px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-card {
+  text-align: center;
+  border: 1px solid var(--aq-border);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  background-color: var(--aq-surface-2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px var(--aq-shadow);
+}
+
+.contact-card .twemoji {
+  color: var(--aq-teal);
+  font-size: 1.9rem;
+}
+
+.contact-card p {
+  margin: 0.4rem 0;
+}
+
+.contact-footer {
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
