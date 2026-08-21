@@ -7,13 +7,14 @@
 # Edit all lines marked [YOUR ...] to customize your site
 # ============================================================
 
-site_name: "Abderrahman El Farchouni"
-site_description: "Abderrahman El Farchouni, PhD Researcher in Integrated Hydrology and Groundwater Recharge (UM6P - IWRI & University of Florence). Hydrological modeling, hydrogeophysics, isotopes, remote sensing, and AI for sustainable water management in semi-arid regions."
+site_name: "Abderrahman El Farchouni | Hydrology & Hydrogeology Researcher"
+site_description: "Abderrahman El Farchouni is a PhD researcher in Hydrology and Hydrogeology at Mohammed VI Polytechnic University (UM6P, Morocco) and the University of Florence (UNIFI, Italy). His research covers groundwater recharge, hydrological modeling, hydrogeophysics, hydrochemistry, isotopes, remote sensing, and AI for water management in semi-arid regions."
 site_author: "Abderrahman El Farchouni"
 site_url: "https://elfarchouni.github.io"
 
 theme:
   name: material
+  custom_dir: overrides
   # Icon used as both the site logo (header) and browser favicon.
   # Browse icons at https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   # and replace "material/earth" with any "material/..." icon name you prefer.
