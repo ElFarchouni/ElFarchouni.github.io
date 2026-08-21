@@ -41,6 +41,9 @@ Feel free to reach out through any of the channels below.
 </div>
 
 <div style="text-align: center" markdown>
+[:material-school: Google Scholar](https://scholar.google.com/citations?hl=en&user=FRnoeWkAAAAJ){ .md-button }
+[:fontawesome-brands-orcid: ORCID](https://orcid.org/0009-0002-1986-4557){ .md-button }
+
 [Download CV :material-download:](assets/Abderrahman-El-Farchouni-CV.pdf){ .md-button .md-button--primary }
 
 *PDF · updated August 2026*
