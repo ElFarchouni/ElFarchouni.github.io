@@ -28,13 +28,13 @@ theme:
       primary: teal
       accent: cyan
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate              # Dark mode
       primary: teal
       accent: cyan
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode
   features:
     - navigation.tabs            # Top-level nav items shown as horizontal tabs
