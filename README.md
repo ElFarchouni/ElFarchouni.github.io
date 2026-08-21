@@ -1,8 +1,8 @@
-# Abderrahman El Farchouni — Personal Portfolio
+# Abderrahman El Farchouni: Personal Portfolio
 
 **Live site: [elfarchouni.github.io](https://elfarchouni.github.io)**
 
-Personal academic portfolio of Abderrahman El Farchouni — PhD Researcher in Integrated
+Personal academic portfolio of Abderrahman El Farchouni, PhD Researcher in Integrated
 Hydrology & Groundwater Recharge, in a cotutelle program between Mohammed VI Polytechnic
 University (UM6P – IWRI, Morocco) and the University of Florence (UNIFI – DAGRI, Italy).
 
