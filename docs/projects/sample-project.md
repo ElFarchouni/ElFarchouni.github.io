@@ -50,7 +50,7 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 ---
 ## Key Findings
 
-- [Finding one — include a number or metric if possible]
+- [Finding one: include a number or metric if possible]
 - [Finding two]
 - [Finding three]
 

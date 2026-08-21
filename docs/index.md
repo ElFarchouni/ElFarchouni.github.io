@@ -87,6 +87,15 @@ GeoAI, and water-resource decision support.
     - GW Vistas
     - Model calibration and uncertainty analysis
 
+-   :material-test-tube:{ .lg .middle } **Hydrochemistry & Isotopes**
+
+    ---
+
+    - Major-ion groundwater chemistry and water quality interpretation
+    - Stable isotope tracing of groundwater recharge (δ²H, δ¹⁸O)
+    - Hydrogeochemical diagrams and multivariate analysis
+    - Sampling design, collection, and lab analysis
+
 -   :material-satellite-variant:{ .lg .middle } **Remote Sensing & GIS**
 
     ---
@@ -108,8 +117,8 @@ GeoAI, and water-resource decision support.
 
     ---
 
-    - Python — pandas, scikit-learn, TensorFlow, Xarray, matplotlib
-    - Machine learning & deep learning — KNN, Random Forest, LSTM, GAIN, PINN
+    - Python: pandas, scikit-learn, TensorFlow, Xarray, matplotlib
+    - Machine learning & deep learning: KNN, Random Forest, LSTM, GAIN, PINN
     - R for statistical and hydrogeochemical analysis (PCA, clustering)
     - SQL & SQLite for database management
 
@@ -125,9 +134,9 @@ GeoAI, and water-resource decision support.
 
     ---
 
-    - Arabic — Native
-    - French — Fluent
-    - English — Fluent
+    - Arabic (Native)
+    - French (Fluent)
+    - English (Fluent)
 
 </div>
 

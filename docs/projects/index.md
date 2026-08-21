@@ -24,7 +24,7 @@ A selection of my research projects. Click any card to see the full write-up.
 
 **[Sample Project](sample-project.md)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
+[YOUR PROJECT DESCRIPTION: one or two sentences on what you did, what data you used,
 and what you found or built.]
 
 `[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
@@ -38,7 +38,7 @@ and what you found or built.]
 
 **[Sample Notebook](sample-notebook.ipynb)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
+[YOUR PROJECT DESCRIPTION: one or two sentences on what you did, what data you used,
 and what you found or built.]
 
 `Python` `pandas` `Folium`
