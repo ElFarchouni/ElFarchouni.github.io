@@ -20,16 +20,17 @@ A selection of my research projects. Click any card to see the full write-up.
 
 <div class="project-card" markdown>
 <span class="project-status project-status--ongoing">Ongoing</span>
-![](../assets/images/placeholder-project.png)
+![PiezoTool cover](../assets/images/piezotool-cover.png)
 
-**[Sample Project](sample-project.md)**
+**[PiezoTool v0.0.0](piezotool.md)**
 
-[YOUR PROJECT DESCRIPTION: one or two sentences on what you did, what data you used,
-and what you found or built.]
+End-to-end pipeline turning raw Diver pressure-logger records from a piezometer network in
+the Haouz plain (Morocco) into validated groundwater levels, with a no-code processing tool for
+the field team and an interactive map-and-chart console.
 
-`[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
+`Python` `Streamlit` `Google Earth Engine` `Leaflet`
 
-[View Project →](sample-project.md){ .md-button }
+[View Project →](piezotool.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>
