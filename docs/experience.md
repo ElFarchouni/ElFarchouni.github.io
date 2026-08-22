@@ -108,6 +108,8 @@ Awarded for a poster presenting an integrated, transdisciplinary approach to gro
 
 <div class="training-grid" markdown>
 
+- :material-check-circle: Machine Learning for Hydrological Impacts Mapping (ICAR 2026 post-conference training, Rabat, July 2026)
+- :material-check-circle: Deep Learning for Hydrological Time Series Prediction (ICAR 2026 post-conference training, Rabat, July 2026)
 - :material-check-circle: SYMPLE: Understand MODFLOW (online training, May 2025)
 - :material-check-circle: SYMPLE: Applied Groundwater Flow Modelling with GW Vistas (March–April 2025)
 - :material-check-circle: Mathematical Models and AI for Solving Groundwater Flow Problems (January 2025)

@@ -58,6 +58,18 @@ El Mezouary, L., Hadri, A., Kharrou, M. H., Fakir, Y., **Elfarchouni, A.**, Bouc
 
 ## Conference Presentations & Posters
 
+<div class="pub-card" markdown>
+<span class="pub-badge pub-badge--poster">Oral Presentation</span><span class="pub-badge pub-badge--journal">SWAT+ & Remote Sensing</span>
+
+**El Farchouni, A.**, et al. (2026). "Integrating SWAT+ hydrological modelling and remote sensing to estimate surface water balance and groundwater recharge in the High Atlas of Marrakech and the Haouz plain." *5th International Conference on African Rivers (ICAR 2026)*, Rabat, Morocco, July 6–11, 2026.
+</div>
+
+<div class="pub-card" markdown>
+<span class="pub-badge pub-badge--poster">Oral Presentation</span><span class="pub-badge pub-badge--journal">SWAT+ & Remote Sensing</span>
+
+**El Farchouni, A.**, Hadri, A., Castelli, G., Fakir, Y., Bresci, E., Ouarani, M., & Kchikach, A. (2026). "Integrating SWAT+ hydrological modelling and remote sensing analysis to estimate surface water balance and groundwater recharge in the High Atlas of Marrakech and the Haouz plain (Morocco)." *EGU General Assembly 2026*, Vienna, Austria, May 3–8, 2026. Session HS8.2.13, abstract EGU26-21149.
+</div>
+
 <div class="pub-card award-card" markdown>
 <span class="pub-badge pub-badge--award">:material-trophy: Best Poster Award</span><span class="pub-badge pub-badge--poster">Poster</span>
 
