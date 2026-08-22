@@ -146,6 +146,9 @@ GeoAI, and water-resource decision support.
 
 ## Connect
 
-[GitHub](https://github.com/ElFarchouni){ .md-button }
-[LinkedIn](https://www.linkedin.com/in/abderrahman-el-farchouni){ .md-button }
-[Email](mailto:elfarchouniabderrahman7@gmail.com){ .md-button }
+[:fontawesome-brands-github: GitHub](https://github.com/ElFarchouni){ .md-button }
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/abderrahman-el-farchouni){ .md-button }
+[:fontawesome-brands-researchgate: ResearchGate](https://www.researchgate.net/profile/El-Farchouni-Abderrahman){ .md-button }
+[:fontawesome-brands-google-scholar: Google Scholar](https://scholar.google.com/citations?hl=en&user=FRnoeWkAAAAJ){ .md-button }
+[:fontawesome-brands-orcid: ORCID](https://orcid.org/0009-0002-1986-4557){ .md-button }
+[:material-email: Email](mailto:elfarchouniabderrahman7@gmail.com){ .md-button }
