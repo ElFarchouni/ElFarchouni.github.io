@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block htmltitle %}
+  {%- if page and page.is_homepage -%}
+    <title>Abderrahman El Farchouni | Hydrology & Hydrogeology Researcher</title>
+  {%- elif page and page.title -%}
+    <title>{{ page.title | striptags }} - Abderrahman El Farchouni | Hydrology & Hydrogeology Researcher</title>
+  {%- else -%}
+    <title>Abderrahman El Farchouni | Hydrology & Hydrogeology Researcher</title>
+  {%- endif -%}
+{% endblock %}
+
 {% block extrahead %}
   <meta name="google-site-verification" content="o5n4foTHPjkmK3NTIspyVwYOXydh6xPm4BJhcAxd22g" />
   <script type="application/ld+json">
