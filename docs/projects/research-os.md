@@ -56,12 +56,9 @@ license, contribution guidance, and a documented path toward secure multi-user d
 
 **Version:** 0.1.0  
 **Role:** Product design, research-workflow modelling, frontend engineering, and documentation  
-**Status:** Functional local-first release; hosted demonstration and optional cloud mode are next
+**Status:** Public local-first v0.1 release; optional cloud mode is planned
 
+[Open live app :material-open-in-new:](https://elfarchouni.github.io/Research-os/){ .md-button .md-button--primary }
 [View source on GitHub :fontawesome-brands-github:](https://github.com/ElFarchouni/Research-os){ .md-button .md-button--primary }
-
-!!! info "Installable demonstration in progress"
-    The public application build is ready. The live link will be added after GitHub Pages is
-    enabled for the new repository.
 
 [Back to all projects :material-arrow-left:](index.md){ .md-button }
