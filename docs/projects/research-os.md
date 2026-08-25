@@ -61,4 +61,34 @@ license, contribution guidance, and a documented path toward secure multi-user d
 [Open live app :material-open-in-new:](https://elfarchouni.github.io/Research-os/){ .md-button .md-button--primary }
 [View source on GitHub :fontawesome-brands-github:](https://github.com/ElFarchouni/Research-os){ .md-button .md-button--primary }
 
+## How to use Research OS
+
+### Open it directly (recommended)
+
+No installation, account, Node.js, or command line is required. Open the live application in a
+modern browser and start working. Data stays in that browser on that device, so use **Settings
+-> Export backup** regularly and before clearing browser data or changing devices.
+
+### Install it like an app
+
+- **Chrome or Edge on a computer:** open the live app, select the install icon in the address
+  bar, and confirm **Install Research OS**.
+- **Android:** use Chrome's **Install app** or **Add to Home screen** option.
+- **iPhone or iPad:** open the app in Safari and select **Share -> Add to Home Screen**.
+
+### Run it from source (developers)
+
+Developers need Git and Node.js 20 or newer. Open Command Prompt, PowerShell, or the VS Code
+terminal and run:
+
+```bat
+git clone https://github.com/ElFarchouni/Research-os.git
+cd Research-os
+npm install
+npm run dev
+```
+
+Keep the terminal open, then visit [http://localhost:3000](http://localhost:3000). Press
+`Ctrl+C` in the terminal to stop the development server.
+
 [Back to all projects :material-arrow-left:](index.md){ .md-button }
