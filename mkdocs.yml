@@ -86,6 +86,7 @@ nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
+    - "Research OS": projects/research-os.md
     - "PiezoTool": projects/piezotool.md
     - "Jupyter Notebook Project": projects/sample-notebook.ipynb
     # HOW TO ADD A NEW PROJECT:
