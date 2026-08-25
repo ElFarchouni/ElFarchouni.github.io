@@ -58,8 +58,10 @@ license, contribution guidance, and a documented path toward secure multi-user d
 **Role:** Product design, research-workflow modelling, frontend engineering, and documentation  
 **Status:** Functional local-first release; hosted demonstration and optional cloud mode are next
 
-!!! info "Public release in progress"
-    The open-source repository and installable demonstration are prepared. Public links will be
-    added here when the GitHub repository is restored and the deployment workflow completes.
+[View source on GitHub :fontawesome-brands-github:](https://github.com/ElFarchouni/Research-os){ .md-button .md-button--primary }
+
+!!! info "Installable demonstration in progress"
+    The public application build is ready. The live link will be added after GitHub Pages is
+    enabled for the new repository.
 
 [Back to all projects :material-arrow-left:](index.md){ .md-button }
