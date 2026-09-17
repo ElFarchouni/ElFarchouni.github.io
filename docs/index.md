@@ -74,6 +74,28 @@ GeoAI, and water-resource decision support.
 
 ---
 
+## News & Highlights
+
+<div class="pub-card award-card" markdown>
+<span class="pub-badge pub-badge--award">:material-trophy: UNESCO Travel Grant</span><span class="pub-badge pub-badge--poster">Poster Presentation</span><span class="date-pill">September 2026</span>
+
+**IAH 2026 World Groundwater Congress, 53rd Congress of the International Association of Hydrogeologists, Budapest, Hungary.**
+Presented a poster on groundwater recharge processes in the High Atlas Mountains (Morocco), integrating hydrogeological, hydrochemical, and stable isotope approaches to improve understanding of recharge dynamics in semi-arid environments. Participation supported by a **UNESCO Travel Grant**, administered by IAH on behalf of UNESCO, and the work was highlighted by IAH.
+
+[Congress website :material-open-in-new:](https://iah2026budapest.com/){ .md-button }
+</div>
+
+<div class="pub-card" markdown>
+<span class="pub-badge pub-badge--journal">Advanced Training</span><span class="date-pill">September 7 to 11, 2026</span>
+
+**15th ESA Advanced Training Course on Land Remote Sensing: The Water Cycle, University of Perugia, Italy.**
+Selected participant in the European Space Agency course dedicated to training the next generation of Earth Observation scientists in water cycle applications of Copernicus Sentinels and other satellite missions.
+
+[Course website :material-open-in-new:](https://landtraining2026.esa.int/){ .md-button }
+</div>
+
+---
+
 ## Skills
 
 <div class="grid cards" markdown>
