@@ -19,20 +19,6 @@ A selection of my research projects. Click any card to see the full write-up.
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-<span class="project-status project-status--ongoing">Open source · v0.1</span>
-![Research OS habit and focus workspace](../assets/images/research-os-dashboard.png)
-
-**[Research OS](research-os.md)**
-
-**Consistency wins.** A privacy-first operating system connecting the daily practices of
-research with projects, evidence, deadlines, habits, and meaningful scientific outputs.
-
-`Next.js` `TypeScript` `PWA` `Local-first` `Docker`
-
-[View Project →](research-os.md){ .md-button }
-</div>
-
-<div class="project-card" markdown>
 <span class="project-status project-status--ongoing">Ongoing</span>
 ![PiezoTool cover](../assets/images/piezotool-cover.png)
 
