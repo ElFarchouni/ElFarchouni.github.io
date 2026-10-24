@@ -39,6 +39,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs            # Top-level nav items shown as horizontal tabs
+    - navigation.tabs.sticky     # Keep the tabs bar visible while scrolling
     - navigation.top             # Back-to-top button when scrolling up
     - content.code.copy          # Copy button on all code blocks
   font:
