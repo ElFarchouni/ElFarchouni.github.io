@@ -558,3 +558,15 @@
   font-size: 0.85rem;
   margin-top: 2rem;
 }
+
+/* ============ Header: always show the site name, never swap to the page title ============ */
+.md-header__title--active .md-header__topic:first-child,
+.md-header__title[data-md-state="active"] .md-header__topic:first-child {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.md-header__topic + .md-header__topic {
+  display: none;
+}
