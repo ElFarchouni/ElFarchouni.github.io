@@ -47,7 +47,5 @@ Feel free to reach out through any of the channels below.
 
 [Download CV :material-download:](assets/Abderrahman-El-Farchouni-CV.pdf){ .md-button .md-button--primary }
 
-*PDF · updated August 2026*
+*PDF · updated September 2026*
 </div>
-
-<p class="contact-footer">:material-map-marker: Based in Benguerir, Morocco · Florence, Italy</p>
