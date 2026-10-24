@@ -292,6 +292,61 @@
   margin: 0.35rem 0;
 }
 
+/* structured entry: title, authors, venue, compact DOI pill */
+.pub-card .pub-title,
+.pub-card .pub-authors,
+.pub-card .pub-venue {
+  margin: 0;
+}
+
+.pub-card .pub-title p,
+.pub-card .pub-authors p,
+.pub-card .pub-venue p {
+  margin: 0;
+}
+
+.pub-card .pub-title {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0.4rem 0 0.25rem 0;
+}
+
+.pub-card .pub-authors {
+  font-size: 0.84rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.15rem;
+}
+
+.pub-card .pub-authors strong {
+  color: var(--md-default-fg-color);
+}
+
+.pub-card .pub-venue {
+  font-size: 0.84rem;
+  margin-bottom: 0.45rem;
+}
+
+.md-typeset .pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.74rem;
+  font-family: var(--md-code-font-family);
+  background-color: var(--aq-chip-bg);
+  color: var(--aq-chip-fg);
+  border-radius: 999px;
+  padding: 0.12rem 0.7rem;
+  margin-bottom: 0.3rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.md-typeset .pub-link:hover {
+  background-color: var(--aq-teal);
+  color: #ffffff;
+}
+
 .pub-badge {
   display: inline-block;
   font-size: 0.66rem;
