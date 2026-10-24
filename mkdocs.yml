@@ -25,18 +25,18 @@ theme:
     # the 'default' (light) and 'slate' (dark) schemes.
     # Available colors: red, pink, purple, deep purple, indigo, blue, light blue,
     # cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
-    - scheme: default            # Light mode
-      primary: teal
-      accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
     - scheme: slate              # Dark mode
       primary: teal
       accent: cyan
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+    - scheme: default            # Light mode
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
   features:
     - navigation.tabs            # Top-level nav items shown as horizontal tabs
     - navigation.tabs.sticky     # Keep the tabs bar visible while scrolling
