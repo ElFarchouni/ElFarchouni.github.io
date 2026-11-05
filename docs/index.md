@@ -87,7 +87,7 @@ A multi-tracer framework (major ions, stable isotopes, self-organizing maps and 
 </div>
 
 <div class="pub-card award-card" markdown>
-<span class="pub-badge pub-badge--award">:material-trophy: UNESCO Travel Grant</span><span class="pub-badge pub-badge--poster">Poster Presentation</span><span class="date-pill">September 2026</span>
+<span class="pub-badge pub-badge--award">:material-trophy: UNESCO Travel Grant</span><span class="pub-badge pub-badge--poster">Poster Presentation</span><span class="date-pill">September 14–18, 2026</span>
 
 **IAH 2026 World Groundwater Congress, 53rd Congress of the International Association of Hydrogeologists, Budapest, Hungary.**
 Presented a poster on groundwater recharge processes in the High Atlas Mountains (Morocco), integrating hydrogeological, hydrochemical, and stable isotope approaches to improve understanding of recharge dynamics in semi-arid environments. Participation supported by a **UNESCO Travel Grant**, administered by IAH on behalf of UNESCO, and the work was highlighted by IAH.

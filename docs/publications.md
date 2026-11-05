@@ -68,6 +68,13 @@ semi-arid regions.
 ## Conference Presentations & Posters
 
 <div class="pub-card" markdown>
+<span class="pub-badge pub-badge--poster">Poster</span><span class="pub-badge pub-badge--award">:material-trophy: UNESCO Travel Grant</span>
+<div class="pub-title" markdown>Hydrochemical and Isotopic Assessment of Groundwater Recharge Mechanisms in Semi-Arid Alluvial Aquifers: Integrating Environmental Tracers with Conceptual Modeling</div>
+<div class="pub-authors" markdown>**El Farchouni, A.**, Hadri, A., Fakir, Y., Ait Brahim, Y., Hssaisoune, M., Bouchaou, L., Ouarani, M., Bouimouass, H., Castelli, G., Bresci, E., Penna, D., Kchikach, A.</div>
+<div class="pub-venue" markdown>*IAH 2026 World Groundwater Congress (53rd Congress of the International Association of Hydrogeologists)*, Budapest, Hungary, September 14–18, 2026</div>
+</div>
+
+<div class="pub-card" markdown>
 <span class="pub-badge pub-badge--poster">Oral Presentation</span><span class="pub-badge pub-badge--journal">SWAT+ & Remote Sensing</span>
 <div class="pub-title" markdown>Integrating SWAT+ hydrological modelling and remote sensing to estimate surface water balance and groundwater recharge in the High Atlas of Marrakech and the Haouz plain</div>
 <div class="pub-authors" markdown>**El Farchouni, A.**, et al.</div>
