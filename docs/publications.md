@@ -13,6 +13,15 @@ semi-arid regions.
 ## First-Author Journal Articles
 
 <div class="pub-card" markdown>
+<span class="pub-badge pub-badge--first">Journal · First Author</span><span class="pub-badge pub-badge--journal">Isotopes & Machine Learning</span>
+<div class="pub-title" markdown>Groundwater recharge mechanisms in the Haouz-Mejjate aquifer (Morocco): Insights from environmental tracers and self-organizing maps</div>
+<div class="pub-authors" markdown>**El Farchouni, A.**, Hadri, A., Ait Brahim, Y., Hssaisoune, M., Bouchaou, L., Ouarani, M., Miftah, M., Bouimouass, H., Castelli, G., Bresci, E., Penna, D., Kchikach, A., Fakir, Y.</div>
+<div class="pub-venue" markdown>*Groundwater for Sustainable Development*, 101706 (2026)</div>
+[:material-link-variant: 10.1016/j.gsd.2026.101706](https://doi.org/10.1016/j.gsd.2026.101706){ .pub-link }
+[:material-database: Data and code (Zenodo)](https://doi.org/10.5281/zenodo.23419569){ .pub-link }
+</div>
+
+<div class="pub-card" markdown>
 <span class="pub-badge pub-badge--first">Journal · First Author</span><span class="pub-badge pub-badge--journal">Groundwater Recharge</span>
 <div class="pub-title" markdown>Mapping groundwater recharge potential zones in a semi-arid, anthropogenically modified mountainous basin</div>
 <div class="pub-authors" markdown>**El Farchouni, A.**, Hadri, A., Fakir, Y., Ouarani, M., Azaroual, M., Kchikach, A.</div>

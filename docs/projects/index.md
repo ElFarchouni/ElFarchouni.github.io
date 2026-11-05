@@ -19,6 +19,22 @@ A selection of my research projects. Click any card to see the full write-up.
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
+<span class="project-status project-status--published">Published</span>
+![Graphical abstract of the Haouz-Mejjate recharge study](../assets/images/haouz-mejjate-recharge-ga.jpg)
+
+**[Recharge Mechanisms from Environmental Tracers](recharge-tracers.md)**
+
+Multi-tracer study of the Haouz-Mejjate aquifer (Morocco): hydrochemistry, stable isotopes,
+self-organizing maps and end-member mixing on 540 samples to quantify mountain-front and
+mountain-block recharge. Published in *Groundwater for Sustainable Development* (2026), with
+open data and code.
+
+`Hydrochemistry` `Isotopes` `SOM` `EMMA` `Python`
+
+[View Project →](recharge-tracers.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
 <span class="project-status project-status--ongoing">Ongoing</span>
 ![PiezoTool cover](../assets/images/piezotool-cover.png)
 

@@ -28,7 +28,7 @@ CHECKLIST FOR THIS PAGE:
 </div>
 
 <div class="cred-strip" markdown>
-<div class="cred-pill" markdown>:material-flask: **5 peer-reviewed publications**</div>
+<div class="cred-pill" markdown>:material-flask: **6 peer-reviewed publications**</div>
 <div class="cred-pill" markdown>:material-trophy: **Best Poster Award, EUniWell Workshop 2025**</div>
 <div class="cred-pill" markdown>:material-earth: **Morocco–Italy cotutelle PhD**</div>
 </div>
@@ -75,6 +75,16 @@ GeoAI, and water-resource decision support.
 ---
 
 ## News & Highlights
+
+<div class="pub-card" markdown>
+<span class="pub-badge pub-badge--first">Journal · First Author</span><span class="pub-badge pub-badge--journal">New Publication</span><span class="date-pill">November 2026</span>
+
+**Article published in *Groundwater for Sustainable Development*: "Groundwater recharge mechanisms in the Haouz-Mejjate aquifer (Morocco): Insights from environmental tracers and self-organizing maps".**
+A multi-tracer framework (major ions, stable isotopes, self-organizing maps and end-member mixing analysis on 540 samples) that quantifies mountain-front and mountain-block recharge in the Haouz-Mejjate aquifer. Data and code are openly available on Zenodo and GitHub.
+
+[:material-link-variant: 10.1016/j.gsd.2026.101706](https://doi.org/10.1016/j.gsd.2026.101706){ .pub-link }
+[Project page :material-arrow-right:](projects/recharge-tracers.md){ .md-button }
+</div>
 
 <div class="pub-card award-card" markdown>
 <span class="pub-badge pub-badge--award">:material-trophy: UNESCO Travel Grant</span><span class="pub-badge pub-badge--poster">Poster Presentation</span><span class="date-pill">September 2026</span>

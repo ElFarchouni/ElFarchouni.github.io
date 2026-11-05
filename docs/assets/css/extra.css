@@ -570,3 +570,7 @@
 .md-header__topic + .md-header__topic {
   display: none;
 }
+
+.md-typeset .pub-link {
+  margin-right: 0.4rem;
+}
